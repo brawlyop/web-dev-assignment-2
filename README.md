@@ -1,7 +1,9 @@
-# Lab 2 - Personal Portfolio Website
+# Web Development Lab 2 - Personal Portfolio
 
-Simple beginner CSS project based on Lab 1.
+This project uses internal CSS inside the `<style>` tag in each HTML file.
+The CSS is kept beginner-friendly. 
 
-Open index.html in a browser. All three pages use style.css.
-
-Note: Put your original photo at images/profile.jpg to display it on the homepage.
+## Files
+- `index.html` - Main portfolio page
+- `about.html` - About page
+- `contact.html` - Contact page
