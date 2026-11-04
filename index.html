@@ -1,288 +1,173 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio project</title>
-<style>
-        /* Basic page style */
+    <title>Portfolio Project</title>
+
+    <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            background-color: #eaf2f8;
             color: #333333;
-            margin: 15px;
+            font-family: Arial, sans-serif;
+            text-align: center;
         }
 
-        h1, h2, h3 {
-            color: #174ea6;
+        h1 {
+            color: #1a5276;
         }
 
-        /* Header and navigation */
-        header {
-            background-color: #174ea6;
-            color: white;
-            padding: 10px;
-        }
-
-        header h1 {
-            color: white;
+        h2 {
+            color: #2874a6;
         }
 
         nav {
-            background-color: #dce8f7;
-            padding: 10px;
-        }
-
-        nav ul {
-
-            padding: 0;
-            margin: 0;
-        }
-
-        nav li {
-            display: inline;
-            margin-right: 15px;
+            background-color: #2874a6;
+            padding: 15px;
         }
 
         nav a {
-            color: #174ea6;
-
-            padding: 5px;
+            color: white;
+            padding: 10px;
         }
-/* Sections and spacing */
+
         section {
             background-color: white;
-            border: 1px solid #cccccc;
-            padding: 15px;
-            margin: 15px 0;
-        }
-
-        hr {
-            border: 1px solid #174ea6;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #2874a6;
         }
 
         img {
-            border: 2px solid #174ea6;
-            box-shadow: 2px 2px 5px #999999;
+            width: 220px;
+            height: 220px;
+            border: 3px solid #2874a6;
         }
 
-        /* Skills table */
         table {
-            border-collapse: collapse;
-            width: 60%;
             margin-left: auto;
             margin-right: auto;
-            background-color: white;
+            border: 2px solid black;
         }
 
         th, td {
-            border: 1px solid #174ea6;
-            padding: 8px;
-            text-align: left;
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
         }
 
         th {
-            background-color: #174ea6;
+            background-color: #2874a6;
             color: white;
-        }
-
-        tr:nth-child(even) {
-            background-color: #e8f0fb;
-        }
-
-        /* Form and button */
-        form {
-            background-color: #e8f0fb;
-            border: 1px solid #174ea6;
-            padding: 15px;
-            width: 60%;
-            margin-left: auto;
-            margin-right: auto;
         }
 
         input {
-            padding: 6px;
+            padding: 8px;
             margin: 5px;
-            border: 1px solid #999999;
         }
 
         button {
-            background-color: #174ea6;
+            background-color: #2874a6;
             color: white;
-            padding: 8px 18px;
+            padding: 10px;
             border: none;
-            border-radius: 4px;
         }
-/* Back to top link */
-        .top-link {
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            background-color: #174ea6;
-            color: white;
-            padding: 8px;
 
+        footer {
+            background-color: #d6eaf8;
+            padding: 15px;
         }
-</style>
+    </style>
 </head>
-<body id="top">
-<header>
-    <h1>Tanishk Yadav</h1> 
 
-     <nav aria-label="Primary navigation">
-  <ul>
-    <li><a href="about.html">About</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
-</header>
-<hr>
+<body>
 
-     <section class="welcome">
-<h2>Welcome to my Portfolio</h2>
+    <h1>Tanishk Yadav</h1>
 
-     <p>Hello! I am a web development student.This is my personal portfolio website</p>
+    <nav>
+        <a href="about.html">About</a>
+        <a href="#projects">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-     </section>
-<hr>
-<section id="about">
-<h2>About me</h2>
-     <br>
-     <img src = "images/profile.jpg" width = "220px" height = "220px" alt = "nature image">
+    <section>
+        <h2>Welcome to my Portfolio</h2>
 
-     <br>
-
-     <p>I am passionate about learning web development and building creative projects about web development.</p>
-
-    <br>
-
+        <p>Hello! I am a web development student. This is my personal portfolio website.</p>
     </section>
-<hr>
-<section id="projects">
-<h2>My Projects</h2>
 
-    <ul>
-        <li>
-            <strong>Portfolio Website: </strong>
-             A personal one-page website to showcase your bio, skills, and contact details.
-        </li>
+    <section>
+        <h2>About Me</h2>
 
-         <li>
-            <strong>Medium Clone:</strong>
-            A simple blog layout that looks like Medium, built only with HTML and CSS.
-        </li>
+        <img src="images/profile.jpg" alt="My profile image">
 
-         <li>
-            <strong>Birthday Card:</strong>
-            A creative greeting card webpage designed with HTML structure and CSS styling.
-        </li>
-
-           <li>
-            <strong>User Form:</strong>
-            A form webpage with fields like name, email, and message for practicing form handling.
-        </li>
-    </ul>
-
+        <p>I am passionate about learning web development and building creative projects about web development.</p>
     </section>
-<hr>
-<section id="skills">
-<h2>Technical Skills</h2>
-   <table Border="5" cellpadding="2" cellspacing="2">
-    <thead>
-           
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <ul>
+            <li>Portfolio Website: A personal website to showcase my bio and skills.</li>
+            <li>Medium Clone: A simple blog layout built using HTML and CSS.</li>
+            <li>Birthday Card: A creative greeting card webpage.</li>
+            <li>User Form: A form webpage with name, email and message fields.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+
+        <table border="2" cellpadding="5" cellspacing="2">
             <tr>
-            <th>Skill</th>
-            <TH>Level</TH>
-           </tr>
-        </thead>
-        <tbody>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+
             <tr>
                 <td>HTML</td>
                 <td>Beginner</td>
-                
             </tr>
+
             <tr>
                 <td>CSS</td>
                 <td>Beginner</td>
-              
             </tr>
+
             <tr>
                 <td>Javascript</td>
                 <td>Learning</td>
-              
             </tr>
-
-    
-        </tbody>
-        <br>
-        
-    </table>
-    <br>
-
-
+        </table>
     </section>
-<hr>
-<footer>
-  <h3>TANISHK's project</h3>
 
-  <ul>
-    <li><a href="#top">Back to top</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="https://github.com" target="_blank" rel="_blank">GitHub</a>
-    </li>
-  </ul>
-</footer>
-<br>
-    <section id="contact">
-<h2>Contact me</h2>
-<form action="#contact">
+    <section>
+        <h2>Contact Me</h2>
 
-     <label for = "name">
-            Name :
-            <input type = "text" name ="name" id ="name" required
-            placeholder = "enter your name">
-     
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+            <br><br>
 
-        </label>
-        <br>
-        <br>
-     <label for = "email">
-            email :
-            <input type = "email" name ="email" id ="email" required
-            placeholder = "enter your email">
-     
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+            <br><br>
 
-        </label>
-        <br>
-        <br>
-         <label for = "message">
-            message :
-            <input type = "text" name ="message" id ="message"
-            placeholder = "enter your message">
+            <label>Message:</label>
+            <input type="text" placeholder="Enter your message">
+            <br><br>
 
-            <br>
-            <br>
-        
-     
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 
-        </label>
+    <footer>
+        <h3>TANISHK's Project</h3>
 
-         <button type = "submit">
-        Submit
-    </button>
-</form>
-</section>
+        <p><a href="#top">Back to top</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="https://github.com">GitHub</a></p>
+    </footer>
 
-
-    
-
-     
-     
-   
-
-
-     
-<a class="top-link" href="#top">Back to Top</a>
 </body>
 </html>
